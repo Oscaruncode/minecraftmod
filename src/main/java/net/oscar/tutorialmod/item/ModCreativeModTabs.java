@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.oscar.tutorialmod.TutorialMod;
+import net.oscar.tutorialmod.block.ModBlocks;
 
 import java.awt.*;
 
@@ -23,6 +24,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(Items.DIAMOND);
+                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
             })
             .build());
     public static void register(IEventBus eventBus){
